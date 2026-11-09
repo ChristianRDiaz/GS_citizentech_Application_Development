@@ -4,8 +4,8 @@ Aplicação web interativa desenvolvida como parte da **Global Solution (2026.2)
 
 ---
 
-## 👨‍💻 Autor
-Christian Diaz - RM568324
+## 👨‍💻 Integrantes:
+Christian Raymundo Diaz - RM568324
 
 ## 📌 Sobre o Projeto
 O **CitizenTech** é um guia inteligente de mobilidade urbana focado na cidade de São Paulo. A aplicação foi criada para solucionar a complexidade e a escassez de informações integradas sobre trajetos, tempo estimado, horários de pico e acessibilidade nas linhas de transporte público coletivo (Metrô e CPTM).
