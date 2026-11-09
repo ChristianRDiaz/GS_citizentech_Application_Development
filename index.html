@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CitizenTech - Guia de Mobilidade Urbana SP</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="cabecalho-principal">
+      <div class="conteiner">
+        <h1>Mobilidade Urbana Inteligente em São Paulo</h1>
+        <p class="subtitulo">
+          Conectando cidadãos a trajetos eficientes, acessíveis e transparentes
+          no transporte coletivo.
+        </p>
+
+        <div class="cartao-introducao">
+          <h3></i> Sobre a Iniciativa</h3>
+            <ul style="list-style-type: none; padding-left: 0; display: flex; flex-direction: column; gap: 10px;">
+                <li>
+                <strong><i class="fa-solid fa-triangle-exclamation" style="color: #f67024;"></i> Problema abordado:</strong> 
+                A complexidade e a escassez de informações integradas sobre acessibilidade e tempo real em linhas de transporte coletivo em São Paulo.
+                </li>
+                <li>
+                <strong><i class="fa-solid fa-users" style="color: #829b4d;"></i> Público-alvo:</strong> 
+                Cidadãos paulistanos, trabalhadores e pessoas com mobilidade reduzida que dependem do transporte público diariamente.
+                </li>
+                <li>
+                <strong><i class="fa-solid fa-bullseye" style="color: #38bdf8;"></i> Objetivo & Benefício:</strong> 
+                Otimizar o planejamento de rotas urbanas através de dados claros e navegação acessível, promovendo inovação tecnológica e infraestrutura (ODS 9), inclusão social (ODS 10) e cidades sustentáveis (ODS 11).
+                </li>
+            </ul>
+      </div>
+    </header>
+
+    <main class="conteiner main-content">
+      <section class="secao-busca">
+        <h2><i class="fa-solid fa-magnifying-glass"></i> Consultar Trajetos</h2>
+        <div class="controles-busca">
+          <div class="input-group">
+            <i class="fa-solid fa-filter"></i>
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Pesquise por linha, origem ou destino (ex: Sé, Pinheiros)..."
+            />
+          </div>
+          <button id="filterQuickBtn" class="btn-secondary">
+            <i class="fa-solid fa-bolt"></i> Rápidas (≤ 30 min)
+          </button>
+        </div>
+      </section>
+
+      <div class="dashboard-grid">
+        <section class="routes-container">
+            <div class="div-cardss">
+                <h3>
+                    <i class="fa-solid fa-route"></i> Linhas Cadastradas (<span id="countRoutes">0</span>)
+                </h3>
+                <div id="routesList" class="routes-list">
+                    
+                </div>
+                <div id="noResults" class="hidden-msg hidden">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <p>Nenhuma linha encontrada para a sua busca.</p>
+                </div>
+            </div>
+        </section>
+
+        <aside class="sidebar-panel">
+          <div id="routeDetailsCard" class="card details-card">
+            <h3><i class="fa-solid fa-circle-info"></i> Detalhes do Trajeto</h3>
+            <p class="placeholder-text">
+              Selecione uma linha ao lado para visualizar as paradas, horários e
+              dados de acessibilidade.
+            </p>
+          </div>
+
+          <div class="card comparator-card">
+            <h3>
+              <i class="fa-solid fa-stopwatch"></i> Comparador de Duração
+            </h3>
+            <p class="small-text">
+              Selecione duas linhas para comparar o tempo estimado de trajeto.
+            </p>
+
+            <div class="comparator-selectors">
+              <select id="compareA">
+                <option value="">Selecione a Linha 1</option>
+              </select>
+              <select id="compareB">
+                <option value="">Selecione a Linha 2</option>
+              </select>
+              <button id="compareBtn" class="btn-primary">
+                Comparar Tempos
+              </button>
+            </div>
+
+            <div id="comparatorResult" class="comparator-result hidden"></div>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <p>Global Solution 2026.2 — Application Development | FIAP</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
