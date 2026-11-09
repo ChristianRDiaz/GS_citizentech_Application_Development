@@ -37,7 +37,7 @@ Este projeto foi desenvolvido utilizando tecnologias web nativas, sem dependênc
 
 ## 📂 Estrutura de Arquivos
 ```text
-/
+/GS_citizentech_Application_Development
 ├── index.html       # Arquivo principal contendo a estrutura da interface
 ├── styles.css       # Folha de estilos customizada e responsiva
 ├── script.js        # Lógica da aplicação, base de dados e manipulação de eventos
