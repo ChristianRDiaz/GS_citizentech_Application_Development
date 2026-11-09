@@ -49,7 +49,7 @@ Como a aplicação roda inteiramente no lado do cliente (client-side), você nã
 
 1. Baixe ou clone este repositório na sua máquina.
 
-    git clone 
+    git clone https://github.com/ChristianRDiaz/GS_citizentech_Application_Development.git
 
 2. Certifique-se de que os três arquivos principais (index.html, styles.css e script.js) estão na mesma pasta.
 
