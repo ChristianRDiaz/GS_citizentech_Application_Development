@@ -17,6 +17,12 @@ O projeto está alinhado diretamente aos **Objetivos de Desenvolvimento Sustent�
 
 ---
 
+## 📺 Vídeo Pitch (Demonstração e Explicação)
+Assista ao vídeo de apresentação e demonstração da solução rodando na prática:
+👉 [Clique aqui para assistir no YouTube](https://youtu.be/cnbeHoDC9yY)
+
+---
+
 ## 🚀 Funcionalidades Principais
 * **Consulta e Listagem de Linhas:** Exibição dinâmica das principais linhas reais do transporte metroviário e ferroviário de São Paulo.
 * **Busca Instantânea:** Filtre as linhas em tempo real digitando o nome da estação de origem, destino ou número da linha.
